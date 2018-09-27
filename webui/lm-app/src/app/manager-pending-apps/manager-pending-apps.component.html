@@ -1,0 +1,68 @@
+
+<div id="abc">
+    
+        <h1 align="center">MY REPORTING EMPLOYEES' LEAVE APPLICATIONS</h1>
+    <div>
+        <table border="1" width="1000" cellspacing="6" align="center">
+            <tr>
+                <th rowspan="2">Employee ID</th>
+                <th rowspan="2">Employee Name</th>
+                <th rowspan="2">Leave Balance</th>
+                <th colspan="4">Leave Applications</th>
+            </tr>
+            <tr align="center">
+                <td>
+                    <table width="900" cellspacing="6" align="center">
+                        <tr>
+                            <td width="10%" align="center">Leave ID</td>
+                            <td width="10%" align="center">Leave Type</td>
+
+                            <td width="10%" align="center">Leave Applied on</td>
+
+                            <td width="20%" align="center">Start Date</td>
+
+                            <td width="20%" align="center">End Date</td>
+
+                            <td width="20%" align="center">No Of Days</td>
+
+                            <td width="20%" align="center">Leave Status</td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr *ngFor="let e of emp">
+              <td>{{e.empId}}</td>
+              <td>{{e.empName}}</td>
+              <td>{{e.empLeaveBalance}}</td>
+              <td>
+                  
+                  <tr *ngFor="let leavedetail of leaved" type = "button"  (click)="approveordeny(leavedetail,e)">
+                        
+                  <span *ngIf="e.empId==leavedetail.empId">
+                        <table width="900" cellspacing="6" align="center">
+                    <td width="10%" align="left">{{leavedetail.leaveId}}</td>
+                    <td width="10%" align="center">{{leavedetail.leaveType}}</td>
+                    <td width="10%" align="center">{{leavedetail.leaveAppliedOn}}</td>
+                    <td width="20%" align="center">{{leavedetail.startDate}}</td>  
+                    <td width="20%" align="center">{{leavedetail.endDate}}</td>
+                    <td width="20%" align="center">{{leavedetail.noOfDays}}</td>
+                    <td width="20%" align="right">{{leavedetail.leaveStatus}}</td>
+                </table>
+                  </span>  
+                </tr>
+                  
+              </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+<br>
+<table align="center">
+<tr><input type="button" button class="btn btn-outline-primary" align="right" value="Get Pending Details" (click)="pending()">
+</tr><br>
+<tr><input type="button" button class="btn btn-outline-primary" align="left" value="Approve/Deny" [disabled]="flag" (click)="appden()">
+</tr>
+</table>
+</div>

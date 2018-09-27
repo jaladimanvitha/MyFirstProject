@@ -1,0 +1,47 @@
+<div float="left">
+<h2 align="left">MY DETAILS</h2>
+<table border="0" style="width:40%" align="left" >
+  <tbody>
+    <tr>
+    <td align="left">Employee ID:</td>         
+    <td align="left">{{employee?.empId}}</td>
+    </tr>
+  <tr>
+    <td align="left">Full Name:</td>
+    <td align="left">{{employee?.empName}}</td>
+  </tr>
+  <tr>
+    <td align="left">Email Address:</td>
+    <td align="left">{{employee?.empEmail}}</td>
+  </tr>
+  <tr>
+    <td align="left">Mobile Number:</td>
+    <td align="left">{{employee?.empPhone}}</td>
+  </tr>
+  <tr>
+      <td align="left">Date Joined:</td>
+      <td align="left">{{employee?.empDoj}}</td>
+  </tr>
+  <tr>
+      <td align="left">Department:</td>
+      <td align="left">{{employee?.empDept}}</td>  
+  </tr>
+  <tr>
+      <td align="left">Sick Leave Balance:</td>
+      <td align="left">{{employee?.sickLeave}}</td>  
+  </tr>
+  <tr>
+      <td align="left">Parental Leave Balance:</td>
+      <td align="left">{{employee?.parentalLeave}}</td>  
+  </tr>
+  <tr>
+      <td align="left">Earned Leave Balance:</td>
+      <td align="left">{{employee?.earnedLeave}}</td>  
+  </tr>
+  </tbody>
+</table>
+</div>
+<div float="right">
+    <app-manager-details [manager]="employee"></app-manager-details>
+</div>
+  

@@ -1,0 +1,29 @@
+
+<h1 align="right">
+<button (click)="logout()" value="logout" align="right">Logout</button>
+</h1>
+<div align="center"> 
+  <table border=0 cellpadding=20 cellspacing=10 width="1000" height="200">
+  <tr><th width="400" bgcolor =#77ADEB><div float="left"><app-mydetails></app-mydetails></div></th>
+    
+  </table>
+  <br>
+  
+  <div>
+    <router-outlet name="leaveapp"></router-outlet>
+    <router-outlet name="applyleave"></router-outlet>
+    
+  </div>
+  <br>
+ <!-- <table border=0 width="1000" height="130" cellspacing=10>
+    <tr><th bgcolor="lightgrey"><app-manager-pending-apps></app-manager-pending-apps></th></tr>
+  </table> -->
+
+  <table border=0 width="1200" height="130" cellspacing=10 >
+      <tr bgcolor =#A9CDF5><th>
+      <router-outlet name="pending"></router-outlet>
+      <router-outlet name="approveordeny"></router-outlet>
+      </th></tr>
+  </table>
+</div>
+  

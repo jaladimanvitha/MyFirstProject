@@ -1,0 +1,6 @@
+#page-wrap{
+    border : solid 1px black;
+    width : 1000px;
+    margin : 40px auto;
+    position : relative;
+}

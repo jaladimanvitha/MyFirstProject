@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Windows 7.0.0)" package="" timestamp="2018-03-05T09:32:19" id="0" hostname="EBHVR18-20" tests="23" errors="0" failures="1" time="2.621">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="ApproveorDenyComponent should be created" time="0.238" classname="PhantomJS_2_1_1_(Windows_7_0_0).ApproveorDenyComponent">
+    <failure type="">Failed: Template parse errors:
+There is no directive with "exportAs" set to "ngForm" ("
+    &lt;table align="center"&gt;&#xD;
+        &#xD;
+                &lt;form [ERROR -&gt;]#formRef="ngForm"&gt;&#xD;
+                        &lt;h2&gt;Approve Deny Leave&lt;/h2&gt;&#xD;
+        &#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@3:22
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Employee Id:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empId"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@8:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Employee Name:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empName"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@14:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Leave Balance:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empLeaveBalance"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@20:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Start Date:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="startDate"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@26:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;End Date:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="endDate"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@32:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Number Of Days:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="noOfDays"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@38:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Leave Type:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="leaveType"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@44:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Reason:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="leaveReason"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@50:23
+Can't bind to 'ngModel' since it isn't a known property of 'input'. ("      &lt;td&gt;Comments:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;input type="text" name="txtComments" name="comments" [ERROR -&gt;][(ngModel)]="comments"&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@56:74
+parse@http://localhost:9876/_karma_webpack_/vendor.bundle.js:44084:80
+_compileTemplate@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58287:44
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:58206:78
+forEach@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:785:12
+_compileComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58206:26
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:58107:37
+then@http://localhost:9876/_karma_webpack_/vendor.bundle.js:32976:135
+_compileModuleAndAllComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58105:30
+compileModuleAndAllComponentsAsync@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58037:67
+compileModuleAndAllComponentsAsync@http://localhost:9876/_karma_webpack_/vendor.bundle.js:59462:65
+compileComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:75347:65
+compileComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:75226:84
+http://localhost:9876/_karma_webpack_/main.bundle.js:352:31
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6223:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.bundle.js:25812:45
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26675:47
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6222:40
+runGuarded@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:5986:53
+runInTestZone@http://localhost:9876/_karma_webpack_/vendor.bundle.js:74707:35
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:74646:26
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6223:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26678:45
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6222:40
+run@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:5973:49
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:26374:37
+execute@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26404:46
+execute@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26404:46
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:26401:134
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6256:36
+runTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6023:57
+drainMicroTaskQueue@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6430:42
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6335:40
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:7352:20
+globalZoneAwareCaptureCallback@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:7410:27
+</failure>
+    <failure type="">Error: Template parse errors:
+There is no directive with "exportAs" set to "ngForm" ("
+    &lt;table align="center"&gt;&#xD;
+        &#xD;
+                &lt;form [ERROR -&gt;]#formRef="ngForm"&gt;&#xD;
+                        &lt;h2&gt;Approve Deny Leave&lt;/h2&gt;&#xD;
+        &#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@3:22
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Employee Id:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empId"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@8:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Employee Name:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empName"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@14:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Leave Balance:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="empLeaveBalance"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@20:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Start Date:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="startDate"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@26:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;End Date:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="endDate"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@32:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Number Of Days:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="noOfDays"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@38:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Leave Type:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="leaveType"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@44:23
+Can't bind to 'ngModel' since it isn't a known property of 'p'. ("
+            &lt;tr&gt;&#xD;
+                &lt;td&gt;Reason:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;p [ERROR -&gt;][(ngModel)]="leaveReason"&gt;&lt;/p&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@50:23
+Can't bind to 'ngModel' since it isn't a known property of 'input'. ("      &lt;td&gt;Comments:&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;input type="text" name="txtComments" name="comments" [ERROR -&gt;][(ngModel)]="comments"&gt;&lt;/td&gt;&#xD;
+                &lt;td&gt;&lt;/td&gt;&#xD;
+            &lt;/tr&gt;&#xD;
+"): ng:///DynamicTestModule/ApproveorDenyComponent.html@56:74 in http://localhost:9876/_karma_webpack_/vendor.bundle.js (line 44084)
+parse@http://localhost:9876/_karma_webpack_/vendor.bundle.js:44084:80
+_compileTemplate@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58287:44
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:58206:78
+forEach@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:785:12
+_compileComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58206:26
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:58107:37
+then@http://localhost:9876/_karma_webpack_/vendor.bundle.js:32976:135
+_compileModuleAndAllComponents@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58105:30
+compileModuleAndAllComponentsSync@http://localhost:9876/_karma_webpack_/vendor.bundle.js:58029:72
+compileModuleAndAllComponentsSync@http://localhost:9876/_karma_webpack_/vendor.bundle.js:59459:64
+_initIfNeeded@http://localhost:9876/_karma_webpack_/vendor.bundle.js:75360:69
+createComponent@http://localhost:9876/_karma_webpack_/vendor.bundle.js:75488:27
+createComponent@http://localhost:9876/_karma_webpack_/vendor.bundle.js:75260:44
+http://localhost:9876/_karma_webpack_/main.bundle.js:355:52
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6223:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26678:45
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6222:40
+run@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:5973:49
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:26376:37
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6256:36
+onInvokeTask@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26702:49
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6255:48
+runTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6023:57
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6331:41
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6320:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:7860:34
+</failure>
+    <failure type="">Expected undefined to be truthy.
+http://localhost:9876/_karma_webpack_/main.bundle.js:360:37
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6223:31
+onInvoke@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26678:45
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6222:40
+run@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:5973:49
+http://localhost:9876/_karma_webpack_/vendor.bundle.js:26376:37
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6256:36
+onInvokeTask@http://localhost:9876/_karma_webpack_/vendor.bundle.js:26702:49
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6255:48
+runTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6023:57
+invokeTask@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6331:41
+invoke@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:6320:52
+timer@http://localhost:9876/_karma_webpack_/polyfills.bundle.js:7860:34
+</failure>
+  </testcase>
+  <testcase name="ApproveorDenyComponent should create the Approve" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).ApproveorDenyComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ApproveorDenyComponent should create the Deny" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).ApproveorDenyComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ApproveorDenyComponent should create the cancel" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).ApproveorDenyComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ManagerPendingAppsComponent should be created" time="0.52" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should create the pending" time="0.303" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should have as title 'empId'" time="0.294" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should have as title 'leavedetails'" time="0.3" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should render title in a h1 tag" time="0.379" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should create the appden" time="0.295" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="ManagerPendingAppsComponent should create the approveordeny" time="0.292" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerPendingAppsComponent"/>
+  <testcase name="AppComponent should create the app" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should have as title 'app'" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should render title in a h1 tag" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="AppComponent should render one employee record" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).AppComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ApplyleaveComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).ApplyleaveComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="DashboardComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).DashboardComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="HomeComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).HomeComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="LeaveapplicationsComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).LeaveapplicationsComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="LoginComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).LoginComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="ManagerDetailsComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).ManagerDetailsComponent">
+    <skipped/>
+  </testcase>
+  <testcase name="LeavedetailsService should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).LeavedetailsService">
+    <skipped/>
+  </testcase>
+  <testcase name="MydetailsComponent should be created" time="0" classname="PhantomJS_2_1_1_(Windows_7_0_0).MydetailsComponent">
+    <skipped/>
+  </testcase>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+,PhantomJS 2.1.1 (Windows 7.0.0) LOG: 'Mock getPending called'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

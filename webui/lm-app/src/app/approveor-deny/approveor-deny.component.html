@@ -1,0 +1,71 @@
+<div>
+    <table align="center">
+        
+                <form #formRef="ngForm">
+                        <h2>Approve Deny Leave</h2>
+        
+            <tr>
+                <td>Employee Id:</td>
+                <td>{{empId}}</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Employee Name:</td>
+                <td>{{empName}}</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Leave Balance:</td>
+                <td>{{empLeaveBalance}}</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Start Date:</td>
+                <td><span>{{startDate|date:'dd-MM-yyyy'}}</span></td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>End Date:</td>
+                <span>{{endDate|date:'dd-MM-yyyy'}}</span>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Number Of Days:</td>
+                <td>{{noOfDays}} Days</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Leave Type:</td>
+                <td>{{leaveType}}</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Reason:</td>
+                <td>{{leaveReason}}</td>
+                <td></td>
+            </tr>
+        
+            <tr>
+                <td>Comments:</td>
+                <td><input type="text" name="txtComments" name="comments" [(ngModel)]="comments"></td>
+                <td></td>
+            </tr>
+ 
+            <tr>
+                <td><input type="submit" value="Approve" button class="btn btn-outline-primary" name="approved" (click)="approve()" ></td>
+                <td><input type="submit" value="Deny" button class="btn btn-outline-primary" name="denied" (click)="deny()"></td>
+                <td><input type="submit" value="Cancel" button class="btn btn-outline-primary" name="pending" (click)="cancel()"></td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+            </tr>
+        
+                </form>
+        </table>    
+       
+
+</div>

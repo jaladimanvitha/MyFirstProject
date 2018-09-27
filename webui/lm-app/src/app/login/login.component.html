@@ -1,0 +1,13 @@
+<h1 align="center"><b> LOGIN</b></h1>
+<div id="images">
+<div class="login">
+    <form align = "center" #empInfo="ngForm" (submit)="verifyEmpInfo(empInfo.value)">
+    <input type="text"  readonly name="empId" [(ngModel)]="empid">
+  <input type="password" placeholder="Password" name=pass ngModel>
+  
+  <input type="submit" value="Login" a href="#" data-toggle="tooltip" title="Login">
+  <input type="reset" value="cancel" (click)="cancel()" a href="#" data-toggle="tooltip" title="Cancel">
+</form>
+</div>
+</div>
+

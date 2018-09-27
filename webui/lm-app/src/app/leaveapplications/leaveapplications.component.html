@@ -1,0 +1,42 @@
+<div>
+  <table align="center" border="1" cellpadding="10" cellspacing="1">
+    <form>
+    <tr>
+      <th colspan="9"><b><h2>MY LEAVE APPLICATIONS</h2></b></th>
+    </tr>
+        <tr bgcolor = #77ADEB>
+        <th>LeaveId</th>
+        <th>NoOfDays</th>
+        <th>StartDate</th>
+        <th>EndDate</th>
+        <th>LeaveType</th>
+        <th>LeaveStatus</th>
+        <th>LeaveReason</th>
+        <th>LeaveAppliedOn</th>
+        <th>ManagerComments</th>
+        </tr>
+      <tbody class="leavedetails">
+          <tr bgcolor =#77ADEB *ngFor="let leavedetail of leavedetails | sort:'leaveAppliedOn'">
+                 <td>{{leavedetail.leaveId}}</td> 
+                 <td>{{leavedetail.noOfDays}}</td>
+                 <td>{{leavedetail.startDate | date :'dd/mm/yyyy'}}</td>
+                 <td>{{leavedetail.endDate | date :'dd/mm/yyyy'}}</td>
+                 <td>{{leavedetail.leaveType}}</td>
+                 <td>{{leavedetail.leaveStatus}}</td>
+                 <td>{{leavedetail.leaveReason}}</td>
+                 <td>{{leavedetail.leaveAppliedOn}}</td>
+                 <td>{{leavedetail.managerComments}}</td>
+                </tr>
+                
+             </tbody>
+           </form>
+    </table><br><br>
+  
+    <input type="button" value="New Application" style="margin-left:auto;margin-right:10%;display:block;margin-top:2%;margin-bottom:0%" button class="btn btn-outline-primary"(click)="newApplication()">
+   
+  </div>
+  
+      
+ 
+  
+ 

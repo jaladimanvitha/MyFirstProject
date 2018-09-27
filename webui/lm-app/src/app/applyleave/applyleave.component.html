@@ -1,0 +1,55 @@
+<div>
+    <h1 align="center"><b>APPLY LEAVE</b></h1>
+  </div>
+  <div >
+    <form [formGroup]="appleave" (submit)="applyInfo()" nonvalidate >
+      <table align="center" border="0" cellpadding="10px" cellspacing="10px">
+        <tr>
+          <td align="left">StartDate</td>
+          <td align="left"><input type="date" date-date-format="yyyy-mm-dd" formControlName="startdate" id="sdate" [min]=checkStartDate() required></td>
+          <td>
+            <div *ngIf="!appleave.controls.startdate?.valid && (appleave.controls.startdate?.dirty || appleave.controls.startdate?.touched)">
+            <div [hidden]="!appleave.controls.startdate.errors.required">StartDate Required
+              </div></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">EndDate</td>
+          <td align="left"><input type="date" date-date-format="yyyy-mm-dd" formControlName="enddate" id="edate"  [min]=appleave.controls.startdate.value required (change)="cal()"></td>
+          <td>
+              <div *ngIf="!appleave.controls.enddate?.valid && (appleave.controls.enddate?.dirty || appleave.controls.enddate?.touched)">
+              <div [hidden]="!appleave.controls.enddate.errors.required">EndDate Required
+                </div> </div>
+            </td>
+        </tr>
+
+        <tr>
+          <td align="left">Number Of Days</td>
+          <td align="left"><input type="text" formControlName="noOfDays" [value]="noofdays"></td>
+        </tr>
+
+        <tr>
+          <td align="left">Leave Type</td>
+          <td align="left"><select formControlName="ltype">
+            <option value="EL">Earned Leave</option>
+            <option value="SL">Sick Leave</option>
+            <option value="PL">Parental Leave</option>
+          </select></td>
+        </tr>
+
+        <tr>
+          <td align="left">Leave Reason</td>
+          <td align="left"><input type="text area" formControlName="lreason"></td>
+        </tr>
+
+        <tr>
+          <td><input type ="submit" value="Apply" button class="btn btn-outline-primary" [disabled]="!appleave.valid"></td>
+          <td><input type ="reset" value="Cancel" button class="btn btn-outline-primary" (click)=cancel()></td>
+        </tr>
+      </table>
+      
+    </form>
+  </div>
+   
+

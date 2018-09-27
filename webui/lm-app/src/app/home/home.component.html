@@ -1,0 +1,41 @@
+
+<div>
+        <div class="row" 
+        style="background:transparent url('http://ak9.picdn.net/shutterstock/videos/9370019/thumb/1.jpg') no-repeat center center /cover">
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Employee ID</th>
+                <th>Employee Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Manager ID</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody class="employees">
+            <tr *ngFor="let employee of employees"> 
+                <td>
+                    <h5>{{employee.empId}}</h5>
+                </td>
+                <td>
+                    <h5>{{employee.empName}}</h5>
+                </td>
+                <td>
+                    <h5>{{employee.empEmail}}</h5>
+                </td>
+                <td>
+                    <h5>{{employee.empPhone}}</h5>
+                </td>
+                <td>
+                    <h5>{{employee.empManagerId}}</h5>
+                </td>
+                <td>
+                    <button class="btn btn-outline-primary" (click)="verify(employee.empId)">Login</button>
+                 </td>                
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
+
